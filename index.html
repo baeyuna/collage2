@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>collage</title>
+
+	<style>
+	div{width: 1200px; height: 500px; background: red; margin: auto; position: relative;}
+	img{width: 100%}
+	h1 {color:white;}
+	html{font-family:'HYSinMyeongJo'; font-size: 0.85em;}
+    .universe{background: url('./img/uni.jpg');
+			  background-size: 100% auto;}
+    .universe img {width:200%;}
+    #blush {width: 1200px; height: 500px; background: mistyrose;}
+    
+    #blush img{width: 75%; 
+    		  position: absolute;
+    		  left:350px; bottom: 1px}
+    #blush h1{position: absolute; top: 390px; left: 503px;}
+
+    .truck {position: absolute; width:600px; top:230px; left:350px; transition: all 1s;}
+    .truck:hover{position: absolute; left:-50px;}
+
+    .catcat {position: absolute; width: 30%; top: 5px; left: -35px; transition: all 1s;}
+    .catcat:hover{transform: rotate3d(60,60,60,180deg);}
+
+    .toy {position: absolute; width:25%; top:-25px; right: -55px;}
+
+	.dog{position: absolute; width:16%; top:140px; left:1000px;}
+
+	.candy{position: absolute; width:18%; left:550px;}
+	.candy:hover{transform: rotateY(180deg);}
+
+	#box1{position: absolute; width: 10px; height: 130px;top: 320px; right: 490px;}
+	#box2{position: absolute; width: 330px; height: 10px;top: 440px; right: 490px;}
+	#box3{position: absolute; width: 10px; height: 130px;top: 320px; right: 820px;}
+	#box4{position: absolute; width: 330px; height: 10px;top: 320px; right: 490px;}
+
+	span{color:white;}
+	span:hover {color:black;}
+
+	</style>
+
+</head>
+
+<body>
+	
+	<div id="universe">
+	<img src="./img/uni.jpg">
+
+	<img src="./img/catcat.png" class="catcat"/>
+	<img src="./img/toy.png" class="toy">
+	<img src="./img/candy.png" class="candy">	
+	</div>
+
+
+	<div id="blush">
+		<img src="./img/ba1.png">
+		<h1><span>갖고싶다</span>너희들</h1>
+		<div id="box1">
+		</div>
+		<div id="box2">
+		</div>
+		<div id="box3">
+		</div>
+		<div id="box4">
+		</div>
+	</div>
+		
+	<img src="./img/dog.png" class="dog">
+	<img src="./img/truck.png" class="truck"/>
+
+	</body>
+</html>
